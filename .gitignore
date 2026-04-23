@@ -1,0 +1,6 @@
+dhd_model/runs/
+dhd_model/datasets/
+dhd_model/models/
+dhs_model/test_data/
+*.log
+dhd_backend/yolo11m.pt
