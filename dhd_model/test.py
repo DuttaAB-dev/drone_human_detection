@@ -37,7 +37,7 @@ def test_yolo(model_path, input_video):
     print(f"Starting prediction with model: {model_name}")
 
     # Run inference with save=True to save the output video
-    results = model("video.mp4", stream=True, save=True, device="cuda")
+    results = model(input_video, stream=True, save=True, device="cuda")
 
     # The results object is an iterator. We need to iterate through it
     # to ensure the saving process completes when save=True.
