@@ -4,3 +4,8 @@ dhd_model/models/
 dhd_model/test_data/
 *.log
 dhd_backend/yolo11m.pt
+dhd_model/*.pt
+dhd_model/past_logs/
+skills/
+__pycache__/
+*.py[cod]
