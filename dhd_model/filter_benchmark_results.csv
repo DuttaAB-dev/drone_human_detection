@@ -1,0 +1,13 @@
+Condition,mAP@0.50,mAP@0.50-95,Precision,Recall
+Dehaze (Degraded),43.69,25.35,57.06,43.88
+Dehaze (Restored),39.0,22.39,52.28,40.5
+CLAHE (Degraded),43.56,25.22,57.1,43.84
+CLAHE (Restored),42.73,24.36,55.8,43.6
+Sharpen (Degraded),31.24,18.25,50.69,31.05
+Sharpen (Restored),31.96,18.71,50.34,31.98
+Gamma (Degraded),40.46,23.05,55.88,40.56
+Gamma (Restored),28.0,15.63,46.87,28.89
+Bilateral (Degraded),32.03,17.85,47.25,33.96
+Bilateral (Restored),38.68,21.98,52.97,39.41
+Combo (Degraded),29.15,16.98,47.43,29.52
+Combo (Restored),30.22,17.27,49.13,30.31

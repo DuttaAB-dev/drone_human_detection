@@ -118,7 +118,8 @@ def load_rfdetr_model(model_path):
     return model
 
 
-def test_rf_detr(model, video_path, target_path):
+def test_rf_detr(model, video_path):
+    target_path = "runs/detect/rfdetr_detects/video_output.mp4"
     os.makedirs(os.path.dirname(os.path.abspath(target_path)), exist_ok=True)
 
     box_annotator = sv.BoxAnnotator()
