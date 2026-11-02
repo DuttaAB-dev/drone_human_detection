@@ -1,7 +1,7 @@
 # visdrone_custom.yaml
 path: /home/anirban/MyProjects/drone_human_detection/dhd_model/datasets # dataset root
-train: VisDrone2019-DET-train/images 
-val: VisDrone2019-DET-train/images # Point to a val set if you have VisDrone2019-DET-val
+train: VisDrone2019-VID-train/images 
+val: VisDrone2019-VID-train/images # Point to a val set if you have VisDrone2019-DET-val
 
 # Classes
 names:

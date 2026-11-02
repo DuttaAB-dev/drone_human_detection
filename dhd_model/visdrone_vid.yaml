@@ -1,6 +1,6 @@
 path: /var/home/anirban/MyProjects/drone_human_detection/dhd_model
-train: VisDrone2019-VID-train/images_flat
-val: VisDrone2019-VID-val/images_flat
+train: datasets/VisDrone2019-VID-train/images
+val: datasets/VisDrone2019-VID-val/images
 # test: VisDrone2019-VID-test-dev/images
 
 nc: 10
